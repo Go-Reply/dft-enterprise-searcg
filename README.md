@@ -1,3 +1,5 @@
+# DFTPrototype
+
 
 This is a search engine used for searching through and summarising findings from DFT data. It searches through uploaded pdfs and listed websites.
 
@@ -37,3 +39,5 @@ When running the website, type your query into the searchbox to perform a search
 
 
  
+
+
