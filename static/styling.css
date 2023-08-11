@@ -1,0 +1,140 @@
+.articlePreview, .articleHeading, .buttons, .searchBar {
+  margin-top: 20px;
+  margin-left: 20px !important;
+  margin-right: 20px;
+}
+
+.searchBar{
+  width:100%!important;
+  align-items: center!important;
+  border-radius: 5;
+}
+
+.summary{
+  margin-left: 10px !important ;
+}
+
+
+.buttons {
+  margin-top: 20px!important;
+  margin-left: 20px!important;
+  background-color: #18747C !important;
+  margin-bottom: 10px;
+}
+
+
+.articleHeading {
+  color: black;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 40px;
+  background-color: #EDEEF4;
+  padding: 5px;
+}
+
+.searchButton{
+  background-color: #18747C !important;
+}
+
+.articlePreview {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #EDEEF4;
+  padding: 5px;
+}
+
+.custom {
+  align-items: flex-start  ;
+  width: 150px !important;
+  height: 50px !important;
+  margin-left: 20px!important;
+
+}/*# sourceMappingURL=mainStyles.css.map */
+
+input[type=text] {
+  padding:4px;
+  border:2px solid #ccc; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=text]:focus {
+  border-color:#333;
+}
+
+h5 {
+  font-size: 25px!important;
+}
+
+h6 {
+  font-size: 15px!important;
+}
+
+.buttonLabels{
+
+  margin-left: 10px;
+
+}
+
+.subHeading{
+  margin-top: 20px;
+}
+
+.row-no-bottom-margin{
+  margin-bottom: 0px!important;
+  padding: 0px!important;
+}
+
+.row-no-top-margin{
+  margin-top: 0px!important;
+  padding: 0px!important;
+
+}
+
+
+.wrapper {
+  width: 100%;
+  max-width: 31.25rem;
+  margin: 6rem auto;
+}
+
+.label {
+  font-size: .625rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: +1.3px;
+  margin-bottom: 1rem;
+}
+
+.searchBar {
+  width: 100%;
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#searchIn {
+  width: 1050px;
+  height: 4rem;
+  background: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 2.5rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 2.8rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#searchQuerySubmit:hover {
+  cursor: pointer;
+}
