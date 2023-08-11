@@ -3,7 +3,7 @@
 
 This is a search engine used for searching through and summarising findings from DFT data. It searches through uploaded pdfs and listed websites.
 
-The unstructured documents it has access to are contained within the following bucket intern_test within the gen-ai-sanbox project. 
+The unstructured documents it has access to are contained within the following bucket intern_test within the gen-ai-sandbox project. 
 
 >NOTE: When uploading documents to this bucket you need to add custom metadata for each of them. You need to add the four following fields as shown below:
 ><img width="1176" alt="image" src="https://github.com/hadi-mu/GOREPLY-DFTSEARCHENGINE/assets/61840032/03ae4225-9157-4a96-99e7-ad288d953acd">
@@ -19,15 +19,17 @@ The two generative apps used for searching are the dft-open-data (ID:dft-open-da
 
 To run the website:
 
-1. Install the requirements by running the following in the terminal
+1.Create a virutal environment and clone repo into it.
+
+2. Install the requirements by running the following in the terminal
 
    `pip install -r requirements.txt`
 
-2. To launch the website, run the following in the terminal
+3. To launch the website, run the following in the terminal
 
    `flask run`
 
-3. Type the url seen in the command line into your browser
+4. Type the url seen in the command line into your browser
    <img width="832" alt="image" src="https://github.com/hadi-mu/GOREPLY-DFTSEARCHENGINE/assets/61840032/3aa545bd-dbc7-4223-95be-5593f8fe1680">
 
 
